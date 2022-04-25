@@ -1,0 +1,46 @@
+body {
+    background-color: #993333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.app-crypt {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+    box-shadow: 0 0 20px -5px;
+    height: 300px;
+}
+
+.encrypt-decrypt-heading {
+    align-self: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.encrypt-decrypt-controls {
+    align-self: center;
+    padding: 1.5rem 3rem;
+}
+
+.ciphertext {
+    margin: 0.7rem 0;
+}
+
+.crypt-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.crypt-button input {
+    background-color: #993333;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
