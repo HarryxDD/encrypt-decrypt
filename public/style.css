@@ -13,7 +13,7 @@ body {
     border-radius: 15px;
     width: 40%;
     box-shadow: 0 0 20px -5px;
-    height: 300px;
+    height: fit-content;
 }
 
 .encrypt-decrypt-heading {
@@ -25,10 +25,17 @@ body {
 .encrypt-decrypt-controls {
     align-self: center;
     padding: 1.5rem 3rem;
+    width: 70%;
 }
 
 .ciphertext {
     margin: 0.7rem 0;
+    word-wrap: break-word;
+}
+
+.decrypted {
+    margin: 0.7rem 0;
+    word-wrap: break-word;
 }
 
 .crypt-button {
